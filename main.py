@@ -16,6 +16,7 @@ file = open("specials.txt")
 specials = [line for line in file]
 file.close()
 
+print()
 while True:
     start = input("Press enter to get your choice!")
     
@@ -24,7 +25,7 @@ while True:
         # get random index to assign to var && remove newline
         character = (characters[random.randint(0,88)])
         character = character.replace("\n", "")
-        move = (moves[random.randint(0,19)])
+        move = (moves[random.randint(0,18)])
         move = move.replace("\n", "")
 
         print(character + " using " + move)
