@@ -14,7 +14,4 @@ Up Special
 Down Special
 Side Special
 Jab
-Down Throw
-Up Throw
-Back Throw
-Forward Throw
+Final Smash
