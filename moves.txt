@@ -1,0 +1,20 @@
+Neutral Aerial
+Forward Aerial
+Down Aerial
+Up Aerial
+Back Aerial
+Forward Smash
+Up Smash
+Down Smash
+Forward Tilt
+Down Tilt
+Up Tilt
+Neutral Special
+Up Special
+Down Special
+Side Special
+Jab
+Down Throw
+Up Throw
+Back Throw
+Forward Throw
