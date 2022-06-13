@@ -22,3 +22,4 @@ Greninja using Up-taunt
 Luigi using Down taunt
 Donkey Kong shrug taunt
 Young link milk taunt
+Link forward smash at 0%
