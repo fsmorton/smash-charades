@@ -19,7 +19,7 @@ file.close()
 while True:
     start = input("Press enter to get your choice!")
     
-    if random.randint(1,100) < 70:
+    if random.randint(1,100) < 90:
         
         # get random index to assign to var && remove newline
         character = (characters[random.randint(0,88)])
