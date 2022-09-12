@@ -1,37 +1,30 @@
 import random
 
 start = input("Welcome to Smash Charades! Press enter to begin.")
-print()
+print("\n")
 
 # reading files into list
-file = open("characters.txt")
-characters = [line for line in file]
-file.close()
+with open("characters.txt") as file
+    characters = list(file)
 
-file = open("moves.txt")
-moves = [line for line in file]
-file.close()
+with open("moves.txt") as file
+    moves = list(file)
 
-file = open("specials.txt")
-specials = [line for line in file]
-file.close()
+with open("specials.txt") as file:
+    specials = list(file)
 
-print()
 while True:
     start = input("Press enter to get your choice!")
     
-    if random.randint(1,100) < 90:
-        
-        # get random index to assign to var && remove newline
-        character = (characters[random.randint(0,88)])
+    if random.randint(1, 100) < 90:
+        character = random.choice(characters)
         character = character.replace("\n", "")
-        move = (moves[random.randint(0,18)])
+        
+        move = random.choice(moves)
         move = move.replace("\n", "")
 
-        print(character + " using " + move)
-        print()
+        print(f"{character} using {move}\n")
     else:
-        special = (specials[random.randint(0,len(specials) - 1)])
+        special = random.choice(specials)
         special = special.replace("\n","")
-        print(special)
-        print()
+        print(f"{special}\n")
